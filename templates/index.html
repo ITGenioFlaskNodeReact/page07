@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p> Start quest? </p>
+    <a href="{{ url_for('quest', step=0, choice=0) }}">
+        <img src="/static/img/yes.png" width="64" height="64" alt="yes">
+    </a>
+    <a href="#">
+        <img src="/static/img/cancel.png" width="64" height="64" alt="no">
+    </a>
+</body>
+</html>
